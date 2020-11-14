@@ -1,4 +1,4 @@
-[12:09, 14/11/2020] Goni: <?php
+<?php
 $url_actual = 'http://'.$_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
 if($url_actual <> 'http://localhost/prueba/singet.php') {//aqui cambian la ruta segun su datos
     //
